@@ -1,0 +1,58 @@
+/* Additional responsive styles for UnifiedImageDashboard and related components */
+
+@media (max-width: 768px) {
+    .latestImagesGrid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .latestImageCard {
+        padding: var(--spacing-md);
+    }
+
+    .imageHistoryTableContainer {
+        overflow-x: auto;
+    }
+
+    .imageHistoryTable th,
+    .imageHistoryTable td {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .paginationControls {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+    }
+
+    .paginationControls button {
+        width: 100%;
+        margin-bottom: var(--spacing-sm);
+    }
+}
+
+@media (max-width: 480px) {
+    .latestImagesGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .latestImageCard {
+        padding: var(--spacing-sm);
+    }
+
+    .imageHistoryTable th,
+    .imageHistoryTable td {
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    .paginationControls {
+        flex-direction: column;
+        gap: var(--spacing-xs);
+    }
+
+    .paginationControls button {
+        width: 100%;
+        margin-bottom: var(--spacing-xs);
+    }
+}

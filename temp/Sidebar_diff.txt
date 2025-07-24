@@ -1,0 +1,13 @@
+import styles from './dashboard.module.css';
+
+type SidebarProps = {
+    rol: 'admin' | 'user';
+};
+=======
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import styles from './dashboard.module.css';
+
+type SidebarProps = {
+    rol: 'admin' | 'user';
+};

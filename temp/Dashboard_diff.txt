@@ -1,0 +1,18 @@
+const storedName = localStorage.getItem('name');
+            const storedRole = localStorage.getItem('rol');
+            if (storedName) {
+                setName(storedName);
+            }
+            if (storedRole === 'admin' || storedRole === 'user') {
+                setRole(storedRole);
+            }
+=======
+        useEffect(() => {
+            const storedName = localStorage.getItem('name');
+            const storedRole = localStorage.getItem('rol');
+            if (storedName) {
+                setName(storedName.charAt(0));
+            }
+            if (storedRole === 'admin' || storedRole === 'user') {
+                setRole(storedRole);
+            }
