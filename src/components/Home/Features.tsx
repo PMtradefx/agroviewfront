@@ -12,21 +12,21 @@ interface FeatureItem {
 const features: FeatureItem[] = [
   {
     id: 1,
-    image: '/public/online.png',
+    image: 'Online.png',
     title: 'Conectividad',
     description: 'Puedes acceder a nuestros sistema desde cualquier lugar del mundo',
   },
   {
     id: 2,
-    image: 'public/ecofriend.png',
+    image: 'ecofriend.png',
     title: 'Amigable con el medio ambiente',
     description: 'Promevemos un mundo mas sustentable y amigable',
   },
   {
     id: 3,
-    image: 'public/plant.png',
+    image: 'plant.png',
     title: 'Productividad',
-    description: 'tener una mejor productividad dectantando de manera mas efectiva las plagas',
+    description: 'Tener una mejor productividad dectantando de manera mas efectiva las plagas',
   },
 ];
 
@@ -34,7 +34,7 @@ function Features() {
   return (
     <section className="servicios">
       <div className="contenedor">
-        <h2 className="titulo">Características de nuestros cursos</h2>
+        <h2 className="titulo">Características de nuestro servicio</h2>
         <div className="servicio-cont">
           {features.map((feature: FeatureItem) => (
             <div className="servicio-ind" key={feature.id}>

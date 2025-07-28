@@ -20,9 +20,9 @@ body{
 header{
    width: 100%;
    height: 600px;
-   background: #97f2c799;  /* fallback for old browsers */
-   background: -webkit-linear-gradient(to right, #1f413899, #97f2c799), url("/public/aproplagaslogo.png");  /* Chrome 10-25, Safari 5.1-6 */
-   background: linear-gradient(to right, #1f413899, #97f2c799), url("/public/aproplagaslogo.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #97f2c8;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #1f413899, #97f2c799), url("/aproplagaslogo.png");  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #1f413899, #97f2c799), url("/aproplagaslogo.png"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;

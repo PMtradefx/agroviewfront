@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ rol }) => {
 
     return (
         <div className={styles.sidebar}>
-            <div className={styles.sidebarTitle}><img src="/agroviewlogo.png" alt="Logo" /></div>
+            <div className={styles.sidebarTitle}><img src="/DataFarmLogo.png" alt="Logo" /></div>
             <nav>
                 <ul>
                     {navItems.map((item) => (

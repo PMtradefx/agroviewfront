@@ -8,13 +8,13 @@ interface TeamMember {
   icon: string;
 }
 
-const teamMembers: TeamMember[] = [ // Explicitly type the array
-  { id: 1, name: 'Miembro 1', image: 'public/foto1.jpg', icon: 'img/programador.png' },
-  { id: 2, name: 'Miembro 2', image: 'public/foto2.jpg', icon: 'img/programador.png' },
-  { id: 3, name: 'Miembro 3', image: 'public/foto3.jpg', icon: 'img/programador.png' },
-  { id: 4, name: 'Miembro 4', image: 'public/foto4.jpg', icon: 'img/programador.png' },
-  { id: 5, name: 'Miembro 5', image: 'public/foto5.jpg', icon: 'img/programador.png' },
-  { id: 6, name: 'Miembro 6', image: 'public/foto6.jpg', icon: 'img/programador.png' },
+const teamMembers: TeamMember[] = [ 
+  { id: 1, name: 'Miembro 1', image: 'foto1.jpg', icon: 'miembro.png' },
+  { id: 2, name: 'Miembro 2', image: 'foto2.jpg', icon: 'miembro.png' },
+  { id: 3, name: 'Miembro 3', image: 'foto3.jpg', icon: 'miembro.png' },
+  { id: 4, name: 'Miembro 4', image: 'foto4.jpg', icon: 'miembro.png' },
+  { id: 5, name: 'Miembro 5', image: 'foto5.jpg', icon: 'miembro.png' },
+  { id: 6, name: 'Miembro 6', image: 'foto6.jpg', icon: 'miembro.png' },
 ];
 
 function Team() {

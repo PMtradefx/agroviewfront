@@ -8,7 +8,7 @@ function AboutUs() {
       <div className="contenedor-sobre-nosotros">
         <img className="img-s-n" src="/test.png" alt="Illustration" />
         <div className="contenedor-textos">
-          <h3><span>1</span>¿Qué es AgriView?</h3>
+          <h3><span>1</span>¿Qué es DataFarm?</h3>
           <p>Un sistema inteligente de deteccion de plagas en tiempo real</p>
           <h3><span>2</span>¿Qué conseguiras?</h3>
           <p>Tener la tranquilidad de saber a tiempo real si tus cultivos tienen algun tipo de plaga</p>

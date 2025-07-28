@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
       <div className="navlist">
-        <img className="Logo" src="public/agroviewlogo.png" alt="AgriView Logo" />
+        <img className="Logo" src="DataFarmLogo.png" alt="DataFarm Logo" />
         <nav>
           <Link to="/">Inicio</Link> 
           <Link to="/login">

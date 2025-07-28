@@ -5,8 +5,7 @@ import Projects from '../Home/Projects';
 import Features from '../Home/Features';
 import Footer from '../Home/footer';
 
-import '../Home/css/Principal.css';
-import '../Home/css/footer.css';
+
 
 function Index() {
   return (
