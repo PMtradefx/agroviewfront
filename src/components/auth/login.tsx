@@ -35,7 +35,7 @@ const Login = () => {
                     <div className={`${styles['container-form']} ${styles['sign-up']}`}>
                         <div className={styles['welcome-back']}>
                             <div className={styles.message}>
-                                <h2> Bienvenido a AgroView</h2>
+                                <h2> Bienvenido a DataFarm</h2>
                                 <p>Las plagas ya no son un problema</p>
                             </div>
                         </div>
